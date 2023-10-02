@@ -46,7 +46,7 @@ video.MapGet("/{*link}", async (string link, HttpContext con) =>
 
 video.MapGet("/convert", (HttpContext ctx) =>
 {
-	var path = "C:\\Users\\MASTER\\Desktop\\video.mp4";
+
 	//Stream outStream = File.Create(Environment.CurrentDirectory+"\\video.mp4");
 
 	NReco.VideoConverter.FFMpegConverter cv = new();
